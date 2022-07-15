@@ -9,9 +9,9 @@ function dlugosc(parametr1, parametr2) {
     let zmienna2 = text2.length;
 
     if (zmienna1 > zmienna2) {
-        wynik = zmienna1;
+        wynik = text1;
     } else {
-        wynik = zmienna2;
+        wynik = text2;
     }
 
     return wynik;
